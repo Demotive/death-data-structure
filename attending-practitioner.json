@@ -1,0 +1,11 @@
+{
+  "caseid": "UID",
+
+  "attending": {
+    "gmcnumber": "",  // who could attend? would they have a GMC number?
+    "office": "",
+    "area": "",
+    "forename": "",
+    "familyname": ""
+  }
+}
