@@ -11,12 +11,12 @@
         "id": "UID",  // could be a register lookup... but location may be any point
         "type": "", // 'home', 'hospital', 'hospice', 'nursing or care home', 'other'
         "latitude": 51.502598,
-        "longitude": -0.125743,
-      },
+        "longitude": -0.125743
+      }
     },
     "nhsnumber": "",
     "gender": "",
-    "lastoccupation": "",
+    "lastoccupation": ""
   },
 
   "medicalexaminer": {
@@ -24,7 +24,7 @@
     "office": "",
     "area": "",
     "forename": "",
-    "familyname": "",
+    "familyname": ""
   },
 
   "attending": {
@@ -32,41 +32,41 @@
     "office": "",
     "area": "",
     "forename": "",
-    "familyname": "",
+    "familyname": ""
   },
 
   "causeofdeath": [ // an array of multiples as MCCD discussions progress
     {
       "1a": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "1b": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "1c": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "1d": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "1e": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "2": {
         "note": "",
-        "approxinterval": "",
+        "approxinterval": ""
       },
       "timestamp": "0000-00-00T00:00:00+00:00",
       "committedby": "UID", // Medical professional lookup of some sort?
       "conjunctionwith": [
         "UID",
         "UID",
-      ],
-    },
-  ],
+      ]
+    }
+  ]
 }
