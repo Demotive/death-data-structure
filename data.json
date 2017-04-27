@@ -1,16 +1,72 @@
 {
+  "id": "UID",
+
   "deceased": {
     "forename": "",
     "familyname": "",
-    "age": 0,
+    "dateofbirth": "0000-00-00T00:00:00+00:00",
     "death": {
-      "timestamp": "2017-04-27T12:44:32+00:00",
-      "location": [
-        51.502598,
-        -0.125743
-      ],
-      "locationname": "",
+      "timestamp": "0000-00-00T00:00:00+00:00", // infer death age from dateofbirth
+      "location": {
+        "id": "UID",  // could be a register lookup... but location may be any point
+        "type": "", // 'home', 'hospital', 'hospice', 'nursing or care home', 'other'
+        "latitude": 51.502598,
+        "longitude": -0.125743,
+      },
     },
     "nhsnumber": "",
+    "gender": "",
+    "lastoccupation": "",
   },
+
+  "medicalexaminer": {
+    "gmcnumber": "",  // UID? Could lookup to a register of MEs?
+    "office": "",
+    "area": "",
+    "forename": "",
+    "familyname": "",
+  },
+
+  "attending": {
+    "gmcnumber": "",  // who could attend? would they have a GMC number?
+    "office": "",
+    "area": "",
+    "forename": "",
+    "familyname": "",
+  },
+
+  "causeofdeath": [ // an array of multiples as MCCD discussions progress
+    {
+      "1a": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "1b": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "1c": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "1d": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "1e": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "2": {
+        "note": "",
+        "approxinterval": "",
+      },
+      "timestamp": "0000-00-00T00:00:00+00:00",
+      "committedby": "UID", // Medical professional lookup of some sort?
+      "conjunctionwith": [
+        "UID",
+        "UID",
+      ],
+    },
+  ],
 }
