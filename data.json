@@ -1,0 +1,16 @@
+{
+  "deceased": {
+    "forename": "",
+    "familyname": "",
+    "age": 0,
+    "death": {
+      "timestamp": "2017-04-27T12:44:32+00:00",
+      "location": [
+        51.502598,
+        -0.125743
+      ],
+      "locationname": "",
+    },
+    "nhsnumber": "",
+  },
+}
