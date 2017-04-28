@@ -3,27 +3,23 @@
 
   "causeofdeath": [ // an array of multiples as MCCD discussions progress
     {
-      "1a": {
+      "1a": { // Disease or condition directly relating to death
         "note": "",
         "approxinterval": ""
       },
-      "1b": {
+      "1b": { // Other disease or condition, if any, leading to 1a
         "note": "",
         "approxinterval": ""
       },
-      "1c": {
+      "1c": {  // Other disease or condition, if any, leading to 1b
         "note": "",
         "approxinterval": ""
       },
-      "1d": {
+      "1d": {  // Other disease or condition, if any, leading to 1c
         "note": "",
         "approxinterval": ""
       },
-      "1e": {
-        "note": "",
-        "approxinterval": ""
-      },
-      "2": {
+      "other-significant": {  // Other significant conditions CONTRIBUTING TO THE DEATH
         "note": "",
         "approxinterval": ""
       },
