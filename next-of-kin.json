@@ -1,0 +1,13 @@
+"nextofkin": [
+  {
+    "forename": "",
+    "familyname": "",
+    "relationship": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+    "present": true,  // if 'present' is true then informed is false - but present and informed can be false during process?
+    "informed": false
+  },
+]

@@ -17,20 +17,7 @@
     "nhsnumber": "",
     "gender": "",
     "lastoccupation": "",
+    "careorganisation": "", // org responsible for care prior to death
     "residentialaddress": ""
-  },
-
-  "nextofkin": [
-    {
-      "forename": "",
-      "familyname": "",
-      "relationship": "",
-      "contactdetails": {
-        "phone": "",
-        "email": ""
-      },
-      "present": true,  // if 'present' is true then informed is false - but present and informed can be false during process?
-      "informed": false
-    },
-  ]
+  }
 }

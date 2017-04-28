@@ -1,0 +1,53 @@
+{
+  "caseid": "UID",
+
+  "practicegp": {
+    "name": "",
+    "organisation": "",
+    "location": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+  },
+
+  "lastcarer": {
+    "name": "",
+    "organisation": "",
+    "location": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+  },
+
+  "hospitalconsultant": {
+    "name": "",
+    "organisation": "",
+    "location": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+  },
+
+  "verifyingperson": {
+    "name": "",
+    "organisation": "",
+    "location": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+  },
+
+  "mccdauthor": {
+    "name": "",
+    "organisation": "",
+    "location": "",
+    "contactdetails": {
+      "phone": "",
+      "email": ""
+    },
+  }
+}
