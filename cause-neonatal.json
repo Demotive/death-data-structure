@@ -3,21 +3,11 @@
 
   "causeofdeath": [ // an array of multiples as MCCD discussions progress
     {
-      "infantmain": {
-        "note": ""
-      },
-      "infantother": {
-        "note": "",
-      },
-      "maternalmain": {
-        "note": "",
-      },
-      "maternalother": {
-        "note": "",
-      },
-      "other": {
-        "note": "",
-      },
+      "infantmain": "",
+      "infantother": """",
+      "maternalmain": "",
+      "maternalother": "",
+      "other": "",
       "timestamp": "0000-00-00T00:00:00+00:00",
       "committedby": "UID", // Medical professional lookup of some sort?
       "conjunctionwith": [
