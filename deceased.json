@@ -8,7 +8,7 @@
     "death": {
       "timestamp": "0000-00-00T00:00:00+00:00", // infer death age from dateofbirth
       "location": {
-        "id": "UID",  // could be a register lookup... but location may be any point
+        "id": "UID",  // could be a register lookup... but location could be anywhere
         "type": "", // 'home', 'hospital', 'hospice', 'nursing or care home', 'other'
         "latitude": 51.502598,
         "longitude": -0.125743
@@ -16,6 +16,21 @@
     },
     "nhsnumber": "",
     "gender": "",
-    "lastoccupation": ""
-  }
+    "lastoccupation": "",
+    "residentialaddress": ""
+  },
+
+  "nextofkin": [
+    {
+      "forename": "",
+      "familyname": "",
+      "relationship": "",
+      "contactdetails": {
+        "phone": "",
+        "email": ""
+      },
+      "present": true,  // if 'present' is true then informed is false - but present and informed can be false during process?
+      "informed": false
+    },
+  ]
 }
