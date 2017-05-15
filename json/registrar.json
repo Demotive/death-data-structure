@@ -1,0 +1,11 @@
+"registrar": {
+  "registrar-id": "",
+  "office": "",
+  "area": "",
+  "forename": "",
+  "familyname": "",
+  "contact-details": {
+    "phone": "",
+    "email": ""
+  }
+}

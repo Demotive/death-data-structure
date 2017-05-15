@@ -3,11 +3,11 @@
     "forename": "",
     "familyname": "",
     "relationship": "",
-    "contactdetails": {
+    "contact-details": {
       "phone": "",
       "email": ""
     },
     "present": true,  // if 'present' is true then informed is false - but present and informed can be false during process?
     "informed": false
-  },
+  }
 ]

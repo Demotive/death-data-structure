@@ -1,0 +1,19 @@
+"deceased": {
+  "forename": "",
+  "familyname": "",
+  "date-of-birth": "0000-00-00T00:00:00+00:00",
+  "death": {
+    "timestamp": "0000-00-00T00:00:00+00:00", // infer death age from date-of-birth
+    "location": {
+      "id": "unique-case-id",  // could be a register lookup... but location could be anywhere
+      "type": "", // 'home', 'hospital', 'hospice', 'nursing or care home', 'other'
+      "latitude": 51.502598,
+      "longitude": -0.125743
+    }
+  },
+  "nhs-number": "",
+  "gender": "",
+  "last-occupation": "",
+  "care-organisation": "", // org responsible for care prior to death
+  "residential-address": ""
+}

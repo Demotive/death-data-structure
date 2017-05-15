@@ -1,0 +1,29 @@
+"cause-of-death": {
+  "1a": { // Disease or condition directly relating to death
+    "note": "",
+    "approx-interval": ""
+  },
+  "1b": { // Other disease or condition, if any, leading to 1a
+    "note": "",
+    "approx-interval": ""
+  },
+  "1c": {  // Other disease or condition, if any, leading to 1b
+    "note": "",
+    "approx-interval": ""
+  },
+  "1d": {  // Other disease or condition, if any, leading to 1c
+    "note": "",
+    "approx-interval": ""
+  },
+  "other-significant": {  // Other significant conditions CONTRIBUTING TO THE DEATH
+    "note": "",
+    "approx-interval": ""
+  },
+  "notes": "",
+  "timestamp": "0000-00-00T00:00:00+00:00",
+  "committed-by": "unique-case-id", // Medical professional lookup of some sort?
+  "conjunction-with": [
+    "unique-case-id",
+    "unique-case-id"
+  ]
+}
