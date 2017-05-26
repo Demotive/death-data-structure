@@ -5,41 +5,56 @@ in the [Death Certification Reforms consultation](https://www.gov.uk/government/
 
 ## The death
 
-The event. The wrapper for the other pieces.
+The wrapper for the other pieces.
 
-* [The case](json/case.json)
+## The deceased
+
+Information about the deceased person.
 
 ## Participants
 
 Who might be part of the establishment of a cause of death? Both in terms of a
 defined role and being an information source?
 
-* [The deceased](json/deceased.json)
-* [Next of kin](json/next-of-kin.json)
-* [The deceased’s GP](json/practice-gp.json)
-* [The deceased’s hospital consultant](json/hospital-consultant.json)
-* [The deceased’s last carer](json/last-carer.json)
+Split into two basic groups:
+
+### Practitioners
+
+* The deceased’s GP
+* The deceased’s hospital consultant
+* The deceased’s last carer
 * The qualified attending practitioner (QAP)
-* [The medical examiner](json/medical-examiner.json)
-* Medical examiner’s officer
+* The medical examiner (ME)
+* Medical examiner’s officer (MEO)
 * The coroner
 * Coroner’s officer
-* [The registrar of births, deaths and marriages](json/registrar.json)
+* The registrar of births, deaths and marriages
 
-## Roles
+### “Civilian”
 
-Who is authoring the Medical Certificate of Cause of Death?
-Who verified the fact of death?
+* Next of kin
+* Partner
+* Relatives
+* Representatives
 
 ## Cause of death
 
 What is the cause of death? Increments of how the agreed cause was arrived at.
-(Structure currently directly lifted from forms, needs interrogation)
 
-* [Cause of death](json/cause.json)
-* [Cause of death (neonatal)](json/cause-neonatal.json)
+## Scrutiny
 
-## Establishment of cause timeline
+What records have been scrutinised? By whom? What is the synopsis of this
+scrutiny?
 
-(May be part of cause of death data?) Who communicated to who, what did they
-decide, when did they decide it, etc?
+## Examination
+
+Information about any physical examination that has taken place as part of the
+ME process.
+
+## Events
+
+The ME workflow has at least three “events”:
+
+* Notification of death
+* Discussion of death between ME and QAP
+* Discussion of death between ME or MEO and the informant
