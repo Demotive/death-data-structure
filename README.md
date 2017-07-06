@@ -58,3 +58,20 @@ The ME workflow has at least three “events”:
 * Notification of death
 * Discussion of death between ME and QAP
 * Discussion of death between ME or MEO and the informant
+
+## Required event checklist
+
+Things that need to have happened before the cause of death is released:
+
+* Practitioner and Medical Examiner discussion
+* Medical Examiner information scrutiny
+* External examination of deceased
+* Medical Examiner signed off cause of death
+* Medical Examiner / Officer and next of kin discussion
+* Informant assent to cause of death
+
+## Other
+
+* Status (i.e. for case management)
+* Complaint flags
+* Notes etc
